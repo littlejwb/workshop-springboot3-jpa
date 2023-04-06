@@ -35,7 +35,8 @@ public class TestConfig implements CommandLineRunner {
 	private OrderItemRepository orderItemRepository;
 
 	public TestConfig(UserRepository userRepository, OrderRepository orderRepository,
-			CategoryRepository categoryRepository, ProductRepository productRepository, OrderItemRepository orderItemRepository) {
+			CategoryRepository categoryRepository, ProductRepository productRepository, 
+			OrderItemRepository orderItemRepository) {
 		super();
 		this.userRepository = userRepository;
 		this.orderRepository = orderRepository;
